@@ -1,0 +1,70 @@
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+
+.nav-container {
+  background: linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(255,44,44,1) 100%, rgba(255,250,242,1) 100%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav-logo-container {
+  display: flex;
+  flex: 1.5;
+  justify-content: start;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.nav-title {
+  font-family: "Pokemon";
+  color: #901A1A;
+  font-size: 40px;
+}
+.nav-menu {
+  flex: .5;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  list-style: none;
+  text-align: center;
+  margin: 2rem
+}
+.nav-item {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+}
+
+@media (max-width: 720px) {
+  .nav-logo-container {
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .nav-title {
+    font-family: "Pokemon";
+    color: #901A1A;
+    font-size: 35px;
+    margin-top: 5px;
+  }
+  .nav-menu {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    list-style: none;
+    text-align: center;
+    margin: 2rem
+  }
+  .nav-item {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+  }
+}
