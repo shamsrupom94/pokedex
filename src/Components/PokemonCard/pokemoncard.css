@@ -1,6 +1,6 @@
 .card-container {
-  height: 350px;
-  width: 250px;
+  height: 470px;
+  width: 330px;
   border: .5px #CDCDCD solid;
   border-radius: 5px;
   margin: 10px;
@@ -32,6 +32,7 @@
   flex: .5;
   display: flex;
   margin-top: 5px;
+  margin-bottom: 5px;
   padding: 2.5px;
 }
 .single-stat {
@@ -43,5 +44,20 @@
   font-weight: bold;
 }
 .details-bottom {
-  flex: 1.5
+  flex: 1.5;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2.5px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.stats-details {
+  border-radius: 100px;
+  text-align: center;
+  min-width: 60px;
+  flex: 1;
+  margin: 5px;
+  padding: 1px;
 }

@@ -40,30 +40,6 @@ export default function PokeList() {
       hp: "100",
       type: "grass"
     },
-    {
-      name: 'Balbusur',
-      avatar: 'default',
-      hp: "100",
-      type: "grass"
-    },
-    {
-      name: 'Balbusur',
-      avatar: 'default',
-      hp: "100",
-      type: "grass"
-    },
-    {
-      name: 'Balbusur',
-      avatar: 'default',
-      hp: "100",
-      type: "grass"
-    },
-    {
-      name: 'Balbusur',
-      avatar: 'default',
-      hp: "100",
-      type: "grass"
-    },
   ])
 
   return (
