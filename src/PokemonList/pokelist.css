@@ -1,9 +1,10 @@
 .main-container {
   justify-content: center;
+  display:flex;
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: 150px;
-  margin-right: 130px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .list-container {
   display: flex;
@@ -12,7 +13,15 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-
+.pagination-button {
+  margin: auto;
+  cursor: pointer;
+}
+.pagination-button:hover {
+  margin: auto;
+  cursor: pointer;
+  opacity: .5;
+}
 /* @media (max-width: 1420px) {
   .list-container {
     display: flex;
