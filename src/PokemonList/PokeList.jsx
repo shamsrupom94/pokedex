@@ -11,7 +11,7 @@ export default function PokeList() {
   const [pokemonRecord, setPokemonRecord] = useState([]);
   const [prevPageUrl, setPrevPage] = useState("");
   const [nextPageUrl, setNextPage] = useState("");
-  const [currentUrl, setCurrentUrl] = useState(`${API_BASE_URL}pokemon?offset=0&limit=5`);
+  const [currentUrl, setCurrentUrl] = useState(`${API_BASE_URL}pokemon?offset=0&limit=10`);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
